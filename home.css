@@ -1,0 +1,53 @@
+                body {
+                    background-color: rgb(226, 232, 235);
+                }
+                
+                #main {
+                    height: 443px;
+                    background-color: rgb(226, 232, 235);
+                    margin-top: 65px;
+                    margin-left: 250px;
+                }
+                
+                .output {
+                    background-color: rgb(191, 208, 209);
+                    box-shadow: 0px 1px 20px rgb(185, 181, 181);
+                    height: 400px;
+                    width: 60%;
+                    display: flex;
+                    margin-bottom: 0px;
+                    overflow-y: auto;
+                    padding-left: 20px;
+                    margin-left: 40px;
+                    font-style: italic;
+                    font-size: 18px;
+                    border-radius: 5%;
+                }
+                
+                ul {
+                    list-style: none;
+                }
+                
+                input[type=submit] {
+                    width: 76px;
+                    box-sizing: border-box;
+                    border: none;
+                }
+                
+                form {
+                    display: flex;
+                    margin-left: 20px;
+                    width: 85%;
+                }
+                
+                .btn-id {
+                    margin-left: 0px;
+                }
+                
+                input.form-control {
+                    border: none;
+                    width: 60%;
+                    margin-top: 0px;
+                    margin-left: 20px;
+                    padding: 20px;
+                }

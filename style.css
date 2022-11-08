@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background: #eff7f7;
+}
+
+.header {
+    background-color: rgb(204, 236, 226);
+    width: 95%;
+    opacity: 70%;
+    border-radius: 10px;
+    border-color: aqua;
+}
+
+.name {
+    font-style: italic;
+    letter-spacing: 0.6rem;
+    margin: 10px;
+    font-weight: 1300;
+    font-size: 15px;
+    color: rgba(44, 189, 157, 0.863);
+    padding: 15px;
+    padding-left: 60px;
+}
+
+.form-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.inscription {
+    background-color: rgb(216, 238, 231);
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: #7de4e4;
+    padding: 20px;
+}
+
+.headerv2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    border-bottom: 3px solid rgb(221, 208, 208);
+}
+
+.informations-users {
+    margin: 20px 0;
+}
+
+.error-txt {
+    color: rgb(204, 51, 51);
+    margin: 10px;
+    display: none;
+}
+
+.informations-users {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(179, 204, 204);
+    border: none;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: aquamarine;
+    transform: translate(2);
+}
+
+.link {
+    text-align: center;
+    padding-top: 13px;
+}
+
+img {
+    width: 30px;
+    height: 35px;
+    padding-top: 15px;
+}
+
+.conv {
+    display: flex;
+    flex-direction: row;
+}
+
+.users {
+    display: flex;
+    padding: 25px 30px;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.inscriptionn {
+    background-color: rgb(216, 238, 231);
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: #7de4e4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(171, 211, 211);
+}
+
+.headerv3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    flex-direction: column;
+    border-bottom: 4px solid rgb(179, 165, 165);
+}
+
+img {
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+}
+
+.conv {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.active {
+    opacity: 70%;
+    color: green;
+}
+
+.users input {
+    width: 300px;
+    margin-right: 15px;
+}
+
+.friends {
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.imgs {
+    width: 60px;
+    height: 80px;
+}
+
+.statut {
+    font-size: 50px;
+    text-align: right;
+    padding-top: 25px;
+    padding-left: 300px;
+    color: green;
+}
+
+.headerv4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 95px;
+}
+
+.namee {
+    padding-left: 15px;
+    padding-right: 7px;
+    font-style: italic;
+}
+
+.msg {
+    opacity: 70%;
+    padding-top: 20px;
+}
+
+.btn-id {
+    background: none;
+    border: none;
+    padding-top: 28px;
+    font-size: 18px;
+}
+
+.headerv5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.namee {
+    padding-top: 25px;
+    font-size: italic;
+    font-size: 17px;
+}
+
+.imgs {
+    height: 65px;
+    width: 70px;
+    padding-left: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.details .active {
+    padding-left: 10px;
+}
+
+.form-signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-outside {
+    width: 550px;
+    height: 450px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat-box {
+    background-color: rgb(234, 239, 243);
+    border-radius: 20px;
+    overflow-y: hidden;
+}
+
+.first-msg {
+    background-color: rgb(226, 187, 187);
+    border-radius: 18px 18px 0 18px;
+    margin: 15px;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.second-msg {
+    background-color: rgb(168, 154, 154);
+    border-radius: 18px 18px 18px 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding: 10px;
+}
+
+.msg {
+    display: flex;
+    flex-direction: row;
+}
+
+.send-msg {
+    width: 400px;
+    margin: 10px;
+}
+
+.btn-msg {
+    border: none;
+}
+
+.contact {
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.kizaro {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.friends {
+    display: flex;
+    overflow-y: auto;
+}
+
+.headerv4 {
+    overflow-y: auto;
+    display: flex;
+}
+
+.users {
+    overflow-y: auto;
+    display: flex;
+}
